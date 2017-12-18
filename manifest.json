@@ -1,0 +1,26 @@
+{
+    "name": "Unlimited Article Views for The New York Times",
+    "short_name": "Remove Monthly Article Views at www.nytimes.com",
+    "description": "This simple extension removes cookies related to
+                    nytimes and by doing so, allows unlimited articles
+                    views at www.nytimes.com",
+    "version": "1.0",
+    "permissions": [
+      "cookies",
+      "tabs",
+      "background",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "icons": {
+      "48": "news-icon-48.png",
+      "128": "news-icon-128.png"
+    },
+    "background": {
+        "scripts": [
+          "eventPage.js"
+        ],
+        "persistent": false
+    },
+    "manifest_version": 2
+}
